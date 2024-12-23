@@ -1,0 +1,343 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+a{
+  background-color:rgba(255, 255, 255, 0.016);
+}
+main{
+  display: flex;
+}
+main .bigdiv{
+  width:80%;
+  padding-right: 0px;
+}
+main aside{
+  margin-top:-22px;
+  margin-left: 10px;
+  padding-left: 10px;
+  width:20%;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+}
+aside h3{
+  font-size: 30px;
+}
+.middle-content{
+  margin-top: 70px;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.title{
+  position: fixed;
+  z-index: 9;
+  top:0px;
+  text-align: center;
+  background:#fff;
+  display: block;
+  padding-left: 18.8em;
+  padding-right: 18.8em;
+}
+.nav1 {
+  background:white;
+  padding: 15px;
+  position: fixed; /*left: 50%;*/
+  width: 100%;
+  top: 70px;
+  z-index: 9;
+  flex: 1;
+}
+.nav1 ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.nav1 li{
+  list-style: none;
+  display: inline-block;
+}
+.nav1 a {
+  padding: 7px 40px;
+  border-radius: 7px;
+  margin-right: 20px;
+  background: rgb(0, 0, 0);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: sans-serif, arial;
+  font-weight: 100;
+  flex:1;
+}
+.nav1 a:hover {
+  background: #0000004b;
+  color: #000000;
+}
+i{
+  margin-left: 30px;
+  margin-right: 20px;
+}
+input[type=text] {
+  padding: 7px 20px;
+  background: #b3b3b349;
+  border-radius: 7px;
+  border: none;
+}
+body{
+    background-image: url("images/background.png");
+    height: fit-content;
+    width: fit-content;
+}
+main{
+    
+    position: relative;
+    margin-top: 10%;
+}
+main .containerImage .textonImage{
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+line-height: 4em;
+background-image: url("images/business.jpg");
+border:2px rgba(0, 0, 0, 0.064) solid;
+border-radius: 10px;
+padding:40px;
+margin-left:40px;
+margin-right:40px;
+background-color: rgba(0, 0, 0, 0.519);
+backdrop-filter: blur(5px);
+color: #ffffff;
+text-align: center;
+}
+.containerImage{
+  display: flex;
+}
+.textonImage::first-line{
+    margin-top:80px;
+    margin-left: 40px;
+    font-size: 40px;
+    align-items: start;
+}
+p img{
+    margin-top:10px;
+    height:70px;
+    width:140px;
+}
+.offer{
+    margin-top:40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+.textonImage a{
+    font-size: 20px;
+    margin:40%;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color:rgba(50, 50, 50, 0.586);
+    border-radius: 5px;
+    padding:15px;
+}
+.textonImage a:hover{
+    color: #000;
+    background-color: #ffffff;
+    transition:0.75s;
+    text-decoration: underline; 
+    font-size: 22px;
+}
+.grid{
+    display: flex;
+    flex-direction: row;
+    flex:1;
+}
+p.benefits{
+    font-size: 40px;
+    text-align: center;
+}
+.grid ul {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+.grid ul li {
+    width: 20%;
+    margin-bottom: 50px;
+    list-style: none;
+    background-color: #00000056;
+    border-radius: 5px;
+    padding:25px;
+    backdrop-filter: blur(5px);
+    color: #ffffff;
+    line-height: 2em;
+  }
+.grid ul li:hover{
+    background-color: #ffffff;
+    color: #000000;
+    transition: 0.5s;
+  }
+.grid ul li h3{
+    background-color: crimson; 
+    color: rgb(255, 255, 255);   
+    padding:5px;
+ }
+.jobs{
+  display: flex;
+  margin: 20px;
+  line-height: 1.5;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ 
+ .vacancy1, .vacancy2, .vacancy3, .vacancy4{
+  background-color: #000000a9;
+  font-size: 16px;
+  margin:10px;
+  padding:20px;
+  border-radius: 6px;
+  color: #fff;
+ }
+ .type{
+  background-color:rgb(234, 88, 117);
+  padding:4px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  text-align: center;
+ }
+ .jobs span{
+  background-color:gold;
+  margin-top:10px;
+  color: #000;
+  padding:4px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 15px;
+ }
+ .apply{
+  margin-top: 10px;
+  background-color: #00000073;
+  color: #fff;
+  border: none;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 3px;
+ }
+ .apply:hover{
+  background-color: #fffefe;
+  color: #000000;
+  transition: 0.5s;
+ }
+ .accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding-right: 15px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  margin-right: 20px;
+}
+ .newsletter{
+  padding:15px;
+  margin:10px;
+  background-color: rgb(84, 84, 84);
+  border-radius: 3px;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+}
+.newsletter:hover{
+  background-color: rgba(255, 217, 0, 0.526);
+  border:gold;
+  color: rgb(0, 0, 0);
+  transition: 0.5s;
+}
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  .footer{
+    position: relative;
+    background-color: #ffffff;
+    flex-direction: column;
+    background:#000;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    }
+  .footer p{
+    background: #fff;
+    font-family: 'Play', sans-serif;
+    color:gray;
+    font-size:0.8em;
+  }
+    .footer .row{
+    background: #fff;
+    width:100%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+    }
+    
+    .footer .row a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+    }
+    
+    .footer .row a:hover{
+    color:#fff;
+    }
+    
+    .footer .row ul{
+    width:100%;
+    }
+    
+    .footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+    
+    .footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+    }
+    
+    @media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }
+    .footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    }
+    .footer .row a i{
+    margin:0% 3%;
+    }
+    }
